@@ -1,0 +1,118 @@
+[
+    {
+        "DisplayName":"Server Name",
+        "Category":"Dedynced:stadia_controller",
+        "Subcategory":"Server Settings",
+        "Description":"Sets the name of the server that will appear in the server list",
+        "Keywords":"server,name,serverName",
+        "FieldName":"serverName",
+        "InputType":"text",
+        "ParamFieldName":"serverName",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"AMP Powered Plains of Pain Server",
+        "Required":true,
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"World Seed",
+        "Category":"Desynced:stadia_controller",
+        "Subcategory":"Server Settings",
+        "Description":"Sets the seed for the world generator",
+        "Keywords":"seed,world,generator",
+        "FieldName":"seed",
+        "InputType":"number",
+        "ParamFieldName":"seed",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"12345",
+        "Placeholder":"12345",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Server Password",
+        "Category":"Desynced:stadia_controller",
+        "Subcategory":"Server Settings",
+        "Description":"Sets the password required for players to join the server. Default is no password",
+        "Keywords":"server,password",
+        "FieldName":"password",
+        "InputType":"password",
+        "ParamFieldName":"password",
+        "IncludeInCommandLine":true,
+        "SkipIfEmpty":true,
+        "DefaultValue":"",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Player Limit",
+        "Category":"Desynced:stadia_controller",
+        "Description":"Sets the maximum number of players allowed on the server at one time",
+        "Keywords":"max,players,slots,limit,maxplayers",
+        "FieldName":"$MaxUsers",
+        "InputType":"number",
+        "MinValue":"1",
+        "ParamFieldName":"MaxPlayers",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"8",
+        "Placeholder":"8",
+        "Suffix":"players",
+        "EnumValues":{}
+    },    
+    {
+        "DisplayName":"Save Name",
+        "Category":"Dedynced:stadia_controller",
+        "Subcategory":"Server Settings",
+        "Description":"Sets the name of the savegame",
+        "Keywords":"savegame,save,game",
+        "FieldName":"SaveName",
+        "InputType":"text",
+        "ParamFieldName":"SaveName",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"Default",
+        "Required":true,
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Day Night Cycle",
+        "Category":"Dedynced:stadia_controller",
+        "Description":"If set to false there will be always day",
+        "Keywords":"world,save,game,backup,start,initbackup",
+        "FieldName":"DayNightCycle",
+        "InputType":"checkbox",
+        "ParamFieldName":"DayNightCycle",
+        "DefaultValue":"",
+        "EnumValues":{
+            "False":"false",
+            "True":"true"
+        }
+    },
+    {
+        "DisplayName":"Run without players",
+        "Category":"Dedynced:stadia_controller",
+        "Description":"If set the server will run without players",
+        "Keywords":"world,save,game,backup,start,initbackup",
+        "FieldName":"runWithoutPlayers",
+        "InputType":"checkbox",
+        "ParamFieldName":"RunWithoutPlayers",
+        "DefaultValue":"",
+        "EnumValues":{
+            "False":"false",
+            "True":"true"
+        }
+    },
+    {
+        "DisplayName":"Allow faction switch",
+        "Category":"Dedynced:stadia_controller",
+        "Description":"If set you can change factions",
+        "Keywords":"world,save,game,backup,start,initbackup",
+        "FieldName":"factionSwitch",
+        "InputType":"checkbox",
+        "ParamFieldName":"FactionSwitch",
+        "DefaultValue":"",
+        "EnumValues":{
+            "False":"false",
+            "True":"true"
+        }
+    }
+
+
+
+]
